@@ -9,8 +9,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import project.Constraint.ConfigData;
-import project.Page.HomePage;
-import project.Page.SearchPage;
+import project.Page.User.SearchPage;
 
 import java.time.Duration;
 import java.util.List;

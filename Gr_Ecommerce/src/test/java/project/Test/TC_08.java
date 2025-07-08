@@ -11,9 +11,8 @@ import project.Constraint.ConfigData;
 import project.Page.Admin.AddProductsPage;
 import project.Page.Admin.Categories;
 import project.Page.Admin.ViewProductPage;
-import project.Page.HomePage;
-import project.Page.LoginPage;
-import project.Page.SearchPage;
+import project.Page.User.HomePage;
+import project.Page.User.LoginPage;
 
 import java.time.Duration;
 import java.util.Random;

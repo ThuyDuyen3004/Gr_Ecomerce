@@ -11,9 +11,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import project.Constraint.ConfigData;
-import project.Page.CartPage;
-import project.Page.HomePage;
-import project.Page.LoginPage;
+import project.Page.User.CartPage;
+import project.Page.User.HomePage;
+import project.Page.User.LoginPage;
 
 import java.time.Duration;
 import java.util.List;

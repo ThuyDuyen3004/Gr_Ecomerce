@@ -1,4 +1,4 @@
-package project.Page;
+package project.Page.User;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

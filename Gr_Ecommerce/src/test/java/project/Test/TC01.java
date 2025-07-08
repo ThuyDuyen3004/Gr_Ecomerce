@@ -12,7 +12,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import project.Constraint.ConfigData;
-import project.Page.*;
+import project.Page.User.*;
 
 import java.time.Duration;
 import java.util.List;

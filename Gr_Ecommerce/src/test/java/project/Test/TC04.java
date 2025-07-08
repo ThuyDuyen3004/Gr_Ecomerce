@@ -11,10 +11,10 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import project.Constraint.ConfigData;
-import project.Page.CartPage;
-import project.Page.HomePage;
-import project.Page.LoginPage;
-import project.Page.OrderPage;
+import project.Page.User.CartPage;
+import project.Page.User.HomePage;
+import project.Page.User.LoginPage;
+import project.Page.User.OrderPage;
 
 import java.time.Duration;
 import java.util.List;
@@ -32,62 +32,6 @@ public class TC04 {
         WebElement randomButton = allButtons.get(new Random().nextInt(allButtons.size()));
         wait.until(ExpectedConditions.elementToBeClickable(randomButton)).click();
         cartPage.ClickOrderButton();
-
-        // Step 5
-//        orderPage.EnterOrderInformation("", "Ngu Hanh Son dictrict", "3042004a3A@");
-//        String msg1 = orderPage.getWarningMessage();
-//        softAssert.assertEquals(msg1, "Họ và tên không được để trống", "Sai message ở step 1");
-
-        // Step 7
-//        orderPage.EnterOrderInformation("Thuy Duyen", "", "3042004a3A@");
-//        String msg2 =  orderPage.getWarningMessage();
-//        softAssert.assertEquals(msg2, "Địa chỉ không được để trống", "Sai message ở step 2");
-
-        // Step 9
-//        orderPage.EnterOrderInformation("Thuy Duyen", "Ngu Hanh Son dictrict", "");
-//        String msg3 =  orderPage.getWarningMessage();
-//        softAssert.assertEquals(msg3, "Mật khẩu không được để trống", "Sai message ở step 3");
-
-        // Step 10
-//        orderPage.EnterOrderInformation("123456789", "Ngu Hanh Son dictrict", "3042004a3A@");
-//        String msg4 =  orderPage.getWarningMessage();
-//        softAssert.assertEquals(msg4, "Chỉ nhập ký tự chữ", "Sai message ở step 4");
-
-        // Step 11
-//        orderPage.EnterOrderInformation("@$#*&^fhuudiidi", "Ngu Hanh Son dictrict", "3042004a3A@");
-//        String msg5 =  orderPage.getWarningMessage();
-//        softAssert.assertEquals(msg5, "Chỉ nhập ký tự chữ", "Sai message ở step 5");
-
-        // Step 12
-//        orderPage.EnterOrderInformation("abcbds", "Ngu Hanh Son dictrict", "3042004a3A@");
-//        String msg6 =  orderPage.getWarningMessage();
-//        softAssert.assertEquals(msg6, "Họ và tên phải trên 6 ký tự", "Sai message ở step 6");
-
-        // Step 14
-//        orderPage.EnterOrderInformation("Thuy Duyen", "12345678910111234588", "3042004a3A@");
-//        String msg7 =  orderPage.getWarningMessage();
-//        softAssert.assertEquals(msg7, "Địa chỉ chứa chữ cái và số", "Sai message ở step 7");
-
-        // Step 16
-//        orderPage.EnterOrderInformation("Thuy Duyen", "@$#*&^fhuudiidi", "3042004a3A@");
-//        String msg8 = orderPage.getWarningMessage();
-//        softAssert.assertEquals(msg8, "Địa chỉ chứa chữ cái và số", "Sai message ở step 8");
-//
-//        // Step 18
-//        orderPage.EnterOrderInformation("Thuy Duyen", "aaaaaaaaaaaaaa", "3042004a3A@");
-//        String msg9 =  orderPage.getWarningMessage();
-//        softAssert.assertEquals(msg9, "Địa chỉ phải trên 15 ký tự", "Sai message ở step 9");
-//
-//        // Step 20
-//        orderPage.EnterOrderInformation("Thuy Duyen", "aaaaaaaaaaaaaaa", "3042004a3A@");
-//        String msg10 =  orderPage.getWarningMessage();
-//        softAssert.assertEquals(msg10, "Địa chỉ phải trên 15 ký tự", "Sai message ở step 10");
-//
-//        // Step 21
-//        orderPage.EnterOrderInformation("Thuy Duyen", "Ngu Hanh Son dictrict", "12345");
-//        String msg11 =  orderPage.getWarningMessage();
-//        softAssert.assertEquals(msg11, "Mật khẩu không đúng", "Sai message ở step 11");
-//        softAssert.assertAll();
 
         // Step 5 - Leave the [Họ và tên] field empty
         orderPage.EnterFullname("");
