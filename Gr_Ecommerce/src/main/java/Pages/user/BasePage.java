@@ -41,8 +41,12 @@ public class BasePage {
         WebElement Lastusername = wait.until(ExpectedConditions.visibilityOfElementLocated(LastNameAtAvatar));
         Lastusername.click();
     }
-
-
+    //
+    public String CheckLastNameAtAvatar() {
+        WebElement spanElement = wait.until(ExpectedConditions.visibilityOfElementLocated(LastNameAtAvatar));
+        return spanElement.getText();
+    }
+    //
     public void logoutButton() {
         wait.until(ExpectedConditions.elementToBeClickable(LoggoutButtonLocator)).click();
     }

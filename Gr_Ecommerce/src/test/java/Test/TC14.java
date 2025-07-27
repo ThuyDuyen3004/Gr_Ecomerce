@@ -8,7 +8,7 @@ import utils.Constants;
 public class TC14 extends BaseTest {
     @Test(description = "TC14 - Verify Cancel Button in Add Product Form")
     public void TC14_verifyCancelButtonInAddProductForm() throws InterruptedException {
-        SoftAssert softAssert = new SoftAssert();
+
         // Step 1
         driver.get(Constants.URL);
         homePage.OpenLoginForm();

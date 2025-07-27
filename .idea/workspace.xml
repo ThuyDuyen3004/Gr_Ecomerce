@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2310f276-d063-4c7e-ae89-3de882a88dd5" name="Changes" comment="" />
+    <list default="true" id="2310f276-d063-4c7e-ae89-3de882a88dd5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gr_Ecommerce/src/main/java/Pages/user/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gr_Ecommerce/src/main/java/Pages/user/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Common/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Common/BaseTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,21 +14,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ThuyDuyen3004"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ThuyDuyen3004&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ThuyDuyen3004/Gr_Ecomerce",
-    "accountId": "bb942a34-e833-4fe6-b500-8aa5781d50c6"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ThuyDuyen3004/Gr_Ecomerce&quot;,
+    &quot;accountId&quot;: &quot;bb942a34-e833-4fe6-b500-8aa5781d50c6&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="30SgAvkfbBzhMggCfLs5Ahsd8Zv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,10 +39,24 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Gr_Ecomerce" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Gr_Ecomerce" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2310f276-d063-4c7e-ae89-3de882a88dd5" name="Changes" comment="" />

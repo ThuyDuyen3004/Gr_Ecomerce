@@ -16,6 +16,7 @@ public class LoginPage {
     private By usernameTextBoxLocator = By.id("e_p_lg");
     private By passwordTextBoxLocator = By.id("pass_lg");
     private By loginButtonLocator = By.id("submit_lg");
+    private By RegisNewAccHyperLinklocator=By.xpath("//form[@id='form_lg']//a[@data-target='#register']");
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
@@ -41,5 +42,11 @@ public class LoginPage {
         clickLoginButton();
         Thread.sleep(2000);
     }
+
+    public void OpenPopUpRegisterNewAcc() {
+        WebElement regisLink = wait.until(ExpectedConditions.elementToBeClickable(RegisNewAccHyperLinklocator));
+        regisLink.click();
+    }
+
 
 }

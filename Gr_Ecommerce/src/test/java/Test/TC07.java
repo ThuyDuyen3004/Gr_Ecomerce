@@ -20,7 +20,7 @@ public class TC07 extends BaseTest {
     public void CheckFilterOptions() throws InterruptedException {
         driver.get(Constants.URL);
         homePage.OpenLoginForm();
-        loginPage.login(Constants.EMAIL, Constants.PASSWORD);;
+        loginPage.login(Constants.EMAIL, Constants.PASSWORD);
         homePage.clickPhoneCategory();
 
         // Kiểm tra sắp xếp từ thấp đến cao

@@ -31,6 +31,8 @@ public class BaseTest {
     protected OrderPage orderPage;
     protected PaymentPage paymentPage;
     protected SearchPage searchPage;
+    protected detailPage detailPage;
+    protected RegisterPage registerPage;
 
     protected Categories categories;
     protected AddProductsPage addProductsPage;
@@ -56,6 +58,8 @@ public class BaseTest {
         orderPage = new OrderPage(driver);
         paymentPage = new PaymentPage(driver);
         searchPage = new SearchPage(driver);
+        detailPage = new detailPage(driver);
+        registerPage = new RegisterPage(driver);
 
         categories = new Categories(driver, wait);
         addProductsPage = new AddProductsPage(driver, wait);
@@ -78,6 +82,7 @@ public class BaseTest {
         driver.quit();
 
     }
+
 
 
 }

@@ -24,6 +24,8 @@ public class HomePage extends BasePage {
     private By ItemPrice = By.xpath("((//div[@class='col-md-8'])/following-sibling::div)/descendant::p[@class='text-danger']");
     private By lowtohighPriceLocator = By.xpath("//ul[@class='dropdown-menu']//a[contains(text(),'Giá từ thấp đến cao')]");
     private By HighToPricePriceLocator = By.xpath("//ul[@class='dropdown-menu']//a[contains(text(),'Giá từ cao đến thấp')]");
+    private By DatHangNgayButton = By.xpath("//button[contains(text(),'Đặt hàng ngay')]");
+    private By ErrorMessage = By.xpath("//h1");
     @Step("Open the login form")
     public void OpenLoginForm() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -131,6 +133,15 @@ public class HomePage extends BasePage {
             CartPage cartPage = new CartPage(driver);
             cartPage.closeCartForm();
         }
+    }
+    //
+    public boolean isDatHangNgayButtonDisabled() {
+        WebElement button = wait.until(ExpectedConditions.visibilityOfElementLocated(DatHangNgayButton));
+        String classAttr = button.getAttribute("class");
+        return classAttr.contains("disabled");
+    }
+    public String GetErrorMessage() {
+        return driver.findElement(ErrorMessage).getText();
     }
 
 
