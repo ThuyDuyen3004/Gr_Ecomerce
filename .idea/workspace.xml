@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2310f276-d063-4c7e-ae89-3de882a88dd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gr_Ecommerce/src/main/java/Pages/user/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gr_Ecommerce/src/main/java/Pages/user/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Common/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Common/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gr_Ecommerce/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Gr_Ecommerce/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC04.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC06.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC07.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC14.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC14.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,16 +36,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Gr_Ecomerce" />

@@ -2,7 +2,6 @@ package Test;
 
 import Common.BaseTest;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 import utils.Constants;
 
 public class TC14 extends BaseTest {
