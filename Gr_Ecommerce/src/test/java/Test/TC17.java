@@ -4,7 +4,7 @@ import Common.BaseTest;
 import org.testng.annotations.Test;
 import utils.Constants;
 
-public class TC18 extends BaseTest {
+public class TC17 extends BaseTest {
     @Test
     public void UserCanLoginSuccessfullyWithValidAccount() throws InterruptedException {
         driver.get(Constants.URL);

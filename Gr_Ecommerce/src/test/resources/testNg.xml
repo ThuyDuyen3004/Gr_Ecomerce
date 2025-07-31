@@ -16,9 +16,9 @@
     </test>
     <test name="Run-Tests-Add-Product-Admin">
         <classes>
-            <class name="Test.TC_08"/>
+            <class name="Test.TC10"/>
             <class name="Test.AddProductNegativeTests"/>
-            <class name="Test.TC14"/>
+            <class name="Test.TC16"/>
 
         </classes>
     </test>

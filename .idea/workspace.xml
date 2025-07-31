@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2310f276-d063-4c7e-ae89-3de882a88dd5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Gr_Ecommerce/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Gr_Ecommerce/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC04.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC06.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC07.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC14.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC09.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC14.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC18.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC38.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC37.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC8.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC_08.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gr_Ecommerce/src/test/java/Test/TC10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gr_Ecommerce/src/test/resources/testNg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Gr_Ecommerce/src/test/resources/testNg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

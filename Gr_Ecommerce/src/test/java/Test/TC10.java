@@ -6,7 +6,7 @@ import com.github.javafaker.Faker;
 import org.testng.annotations.Test;
 import utils.Constants;
 
-public class TC_08 extends BaseTest {
+public class TC10 extends BaseTest {
 
     Faker faker = new Faker();
 

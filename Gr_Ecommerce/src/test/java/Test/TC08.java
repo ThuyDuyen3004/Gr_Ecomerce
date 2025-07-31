@@ -4,7 +4,7 @@ import Common.BaseTest;
 import org.testng.annotations.Test;
 import utils.Constants;
 
-public class TC8 extends BaseTest {
+public class TC08 extends BaseTest {
     @Test
     public void VerifyThatTheButtonIsDisableWhenNoProductInCart() {
         driver.get(Constants.URL);

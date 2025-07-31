@@ -7,7 +7,7 @@ import utils.Constants;
 
 import java.util.Locale;
 
-public class TC38 extends BaseTest {
+public class TC37 extends BaseTest {
     @Test
     public void TC10_Verifyuserscanregisternewaccount() throws InterruptedException {
         driver.get(Constants.URL);
