@@ -12,6 +12,13 @@
             <class name="Test.TC05"/>
             <class name="Test.TC06"/>
             <class name="Test.TC07"/>
+            <class name="Test.TC08"/>
+            <class name="Test.TC09"/>
+            <class name="Test.TC10"/>
+            <class name="Test.TC16"/>
+            <class name="Test.TC17"/>
+            <class name="Test.TC37"/>
+            <class name="Test.RegisterNegativeTests"/>
         </classes>
     </test>
     <test name="Run-Tests-Add-Product-Admin">
