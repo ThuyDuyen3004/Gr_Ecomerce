@@ -75,7 +75,7 @@ public class RegisterNegativeTests extends BaseTest {
 
         // Step 18: Password rỗng
         registerPage.RegisterNewAccount(validFullName, validEmail, validPhone, "", "");
-        softAssert.assertEquals(registerPage.getWarningMessage(), "Mật khẩu không được bỏ trống", "Sai message ở Step 18");
+        softAssert.assertEquals(registerPage.getWarningMessage(), "Mật khẩu không được để trống", "Sai message ở Step 18");
 
         // Step 19: Password < 6 ký tự
         registerPage.RegisterNewAccount(validFullName, validEmail, validPhone, shortPassword, shortPassword);
